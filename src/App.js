@@ -1,17 +1,12 @@
 import logo from './logo.svg';
-import Schd from "./shcd"
-import {
-  Scheduler,
-  DayView,
-  Appointments,
-} from '@devexpress/dx-react-scheduler-material-ui';
 
-import './App.css';
+import React from "react";
+import Shceduler from "./shcd.js";
 
 function App() {
   return (
-    <div className="App">
-      <Schd/>
+    <div className='App'>
+      <Shceduler />
     </div>
   );
 }
